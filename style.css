@@ -128,4 +128,10 @@ ul li a:hover {
   background: var(--highlight-color);
 }
 
+footer {
+  padding: 24px 0;
+  text-align: center;
+  font-size: 14px;
+}
+
 
