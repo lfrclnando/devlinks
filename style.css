@@ -30,6 +30,22 @@ body * {
   color: var(--text-color);
 }
 
+/* profile */
+#profile {
+  text-align: center;
+  padding: 24px;
+}
+
+#profile img {
+  width: 112px;
+}
+
+#profile p {
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 8px;
+}
+
 /* links */
 ul {
   list-style: none;
