@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 :root {
   --text-color: white;
   --bg-url: url(./assets/bg-mobile.jpg);
@@ -12,6 +13,7 @@
   --highlight-color: rgba(255, 255, 255, 0.2);
   --switch-bg-url: url(./assets/moon-stars.svg);
 }
+
 .light {
   --text-color: black;
   --bg-url: url(./assets/bg-mobile-light.jpg);
@@ -21,6 +23,7 @@
   --highlight-color: rgba(0, 0, 0, 0.1);
   --switch-bg-url: url(./assets/sun.svg);
 }
+
 body {
   background: var(--bg-url) no-repeat top center/cover;
   height: 100vh;
@@ -28,6 +31,13 @@ body {
 body * {
   font-family: "Inter", sans-serif;
   color: var(--text-color);
+}
+
+#container {
+  width: 100%;
+  max-width: 588px;
+  margin: 56px auto 0px;
+  padding: 0 24px;
 }
 
 /* profile */
@@ -66,7 +76,6 @@ body * {
 
   animation: slide-back 0.2s;
 }
-
 .light #switch button {
   animation: slide-in 0.2s forwards;
 }
@@ -126,10 +135,9 @@ ul li a:hover {
   background: var(--highlight-color);
 }
 
+/* footer */
 footer {
   padding: 24px 0;
   text-align: center;
   font-size: 14px;
 }
-
-
